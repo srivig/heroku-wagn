@@ -7,9 +7,9 @@
 //= require jquery
 //= require tinymce
 
-//= !require jquery.mobile    
+//= !require jquery.mobile
     /* jquery.mobile must be after wagn to avoid mobileinit nastiness */
-//= require jquery.ui.all
+//= require jquery.ui
     /* jquery.ui.all must be after jquery.mobile to override dialog weirdness */
 //= require jquery.ui.autocomplete.html.js
     /* this autocomplete must be after jquery.ui stuff */
@@ -22,4 +22,3 @@
 Note: I attempted to get tinymce up with tinymce-jquery,
 but it overrode val() in ways that broke our filed updating / autosave
 */
-
