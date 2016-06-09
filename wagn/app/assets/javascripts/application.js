@@ -9,7 +9,6 @@
 
 //= !require jquery.mobile
     /* jquery.mobile must be after wagn to avoid mobileinit nastiness */
-//= require jquery.ui
     /* jquery.ui.all must be after jquery.mobile to override dialog weirdness */
 //= require jquery.ui.autocomplete.html.js
     /* this autocomplete must be after jquery.ui stuff */
