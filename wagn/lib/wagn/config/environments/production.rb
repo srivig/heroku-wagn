@@ -22,6 +22,10 @@ Wagn.application.class.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+  config.assets.enabled = false
+  config.action_mailer.perform_deliveries = false
+  config.serve_static_files = true
+  config.assets.initialize_on_precompile = false
 
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = File.join(Wagn.gem_root, "public/assets")
